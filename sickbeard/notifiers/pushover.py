@@ -185,3 +185,5 @@ class Notifier(object):
         logger.log("Sending notification for " + message, logger.DEBUG)
 
         return self._sendPushover(message, title, sound=sound, userKey=userKey, apiKey=apiKey)
+
+
